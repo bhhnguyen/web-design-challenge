@@ -1,0 +1,90 @@
+.navbar{
+    background-color: white; 
+    font-size: 16px;
+    margin-top: 0px
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #09D8BA;
+}
+
+.nav-link:hover{
+    background-color: #09D8BA;
+}
+
+.navbar-brand{
+    background-color: #09D8BA;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: Bold;
+    padding: 10px
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+.card{
+    margin: 10px
+}
+
+.card-img{
+    font-size:8px
+}
+
+.card-text{
+    color: black;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+.card-title{
+    color: rgb(68, 202, 182);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: Bold;
+}
+
+.current{
+    border-color: #09D8BA;
+    border-style: solid;
+}
+
+.img-fluid:hover{
+    border-color: #09D8BA;
+    border-style: solid;
+}
+
+.box{
+    color:black;
+    background-color: white; 
+}
+
+.table-responsive{
+    margin-top: 20px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.compareText{
+    color: rgb(68, 202, 182);
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: Bold;
+}
+
+@media(max-width: 600px){
+    .navbar-expand-lg{
+        background-color: #09D8BA;
+    }
+    .navbar-collapse .dropdown .dropdown-menu .dropdown .dropdown-menu .dropdown-item:hover{
+        background-color: white;
+        padding: inherit;
+        margin: inherit;
+    }
+
+    .navbar div{
+        margin: inherit;
+        padding: inherit;
+        background-color: white;
+    }
+}
